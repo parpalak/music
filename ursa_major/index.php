@@ -138,13 +138,13 @@ $(function () {
 
 <body>
 	<div class="wrap">
+		<div class="cover">
+			<img src="/pictures/music/ursa_major_800.jpg" alt="" /></a>
+		</div>
+
 		<div class="lang-switch">
 			<a href="#en" data-lang="en" class="link">EN</a>
 			<a href="#ru" data-lang="ru" class="link">RU</a>
-		</div>
-
-		<div class="cover">
-			<img src="/pictures/music/ursa_major_800.jpg" alt="" /></a>
 		</div>
 
 		<div class="text">
