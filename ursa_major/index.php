@@ -79,7 +79,7 @@ function __ ($key) {
 <!--<link rel="stylesheet" href="/_styles/written_ru/social-likes/social-likes_flat.css">-->
 <link rel="stylesheet" href="um.css">
 
-<script src="/jouele/jquery.js"></script>
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../jouele/jquery.jplayer.min.js"></script>
 <script src="../jouele/jouele2.js"></script>
 
@@ -112,9 +112,9 @@ $(function () {
 
 		document.title = i18n[lang]['title'];
 		$('.copyright-text').html(i18n[lang]['copyright']);
-		$.each(['vkontakte', 'twitter', 'facebook'], function (i, c) {
+		/* $.each(['vkontakte', 'twitter', 'facebook'], function (i, c) {
 			$('.social-likes__widget_' + c).attr('title', i18n[lang]['title-' + c]);
-		});
+		}); */
 	}
 
 	function isLocalStorage() {
