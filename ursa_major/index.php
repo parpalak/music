@@ -79,6 +79,15 @@ function __ ($key) {
 <!--<link rel="stylesheet" href="/_styles/written_ru/social-likes/social-likes_flat.css">-->
 <link rel="stylesheet" href="um.css">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111005644-2"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-111005644-2');
+</script>
+
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script src="../jouele/jquery.jplayer.min.js"></script>
 <script src="../jouele/jouele2.js"></script>
