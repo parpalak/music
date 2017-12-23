@@ -8,7 +8,7 @@ $titles = [
 		'Дождливый вечер',
 		'Малая Медведица',
 		'Большая Медведица',
-		'В другой Вселенной',
+		'В чужой Вселенной',
 		'Океан на Энцеладе',
 		'Маятник',
 		'Мечты о завтрашнем дне',
@@ -34,7 +34,7 @@ $titles = [
 $i18n = [
 	'ru' => [
 		'title'           => 'Большая медведица - Роман Парпалак',
-		'copyright'       => '© <a href="http://written.ru/">Роман Парпалак</a>, 2014&ndash;2016.',
+		'copyright'       => '© <a href="https://written.ru/">Роман Парпалак</a>, 2014&ndash;2016.',
 		'author'          => 'Роман Парпалак',
 		'album'           => 'Композиции альбома «Большая медведица»',
 		'title-twitter'   => 'Твитнуть',
@@ -43,7 +43,7 @@ $i18n = [
 	],
 	'en' => [
 		'title'           => 'Ursa Major - Roman Parpalak',
-		'copyright'       => '© 2014&ndash;2016 <a href="http://written.ru/">Roman Parpalak</a>',
+		'copyright'       => '© 2014&ndash;2016 <a href="https://written.ru/">Roman Parpalak</a>',
 		'author'          => 'Roman Parpalak',
 		'album'           => 'Album “Ursa Minor”',
 		'title-twitter'   => 'Tweet',

@@ -115,6 +115,15 @@ li > span.title {
 .list {
 	padding: 30px 5% 0;
 	}
+
+@viewport {
+	width: device-width;
+	}
+
+@-ms-viewport {
+	width: device-width;
+	}
+
 @media screen and (min-width: 480px) {
 	body {width: 480px; margin: 0 auto; }
 	.cover img {
@@ -176,8 +185,11 @@ li > span.title {
 		-ms-flex: 1;
 		flex: 1 1 auto;
 		}
-	.lang-switch a.link {
+	.lang-switch a.link,
+	.lang-switch a.link:hover {
 		color: #d2d2cb;
+		-moz-text-decoration-color: #d2d2cb;
+		text-decoration-color: #d2d2cb;
 		}
 		.lang-switch a.link.current {
 			background: #37343d;
